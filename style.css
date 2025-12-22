@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculator {
+  background-color: rgb(41, 41, 41);
+  height: 850px;
+  width: 500px;
+  border-radius: 40px;
+}
+
+#viewscreen {
+  background-color: gray;
+  border-radius: 30px;
+  height: 150px;
+  margin: 30px;
+  display: flex;
+}
+
+#buttonScreen {
+  justify-content: center;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#buttonScreen button {
+  width: 110px;
+  height: 106px;
+  border-radius: 100%;
+  border: none;
+  margin: 5px;
+  font-size: 40px;
+}
+
+#currentView {
+  width: 440px;
+  height: 70px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+#viewItem {
+  width: auto;
+  height: 57px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding: 0 5px;
+}
+
+button {
+  background-color: rgb(71, 70, 70);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(113, 113, 113);
+}
+
+.light {
+  background-color: rgb(122, 122, 122);
+}
+
+.light:hover {
+  background-color: rgb(176, 174, 174);
+}
+
+.orange {
+  background-color: rgb(230, 157, 20);
+}
+
+.orange:hover {
+  background-color: rgb(249, 173, 32);
+}
