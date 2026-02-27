@@ -3,6 +3,7 @@ A Frontend Calculator allows the user to click numebers and make simple calculat
 
 ## Live Demo
 https://bizzyizzymax-bot.github.io/CalculatorProject/
+
 ![Calculator Project Gif](calculatorproject.gif)
 
 ## Features
